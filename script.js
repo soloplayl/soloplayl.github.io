@@ -1,4 +1,4 @@
-const apiUrl = 'https://api.openai.com/v1/engines/davinci/completions';
+const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
 const input = document.getElementById('input');
 const submit = document.getElementById('submit');
