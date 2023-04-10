@@ -3,8 +3,7 @@ const apiUrl = 'https://api.openai.com/v1/engines/davinci/completions';
 const input = document.getElementById('input');
 const submit = document.getElementById('submit');
 const response = document.getElementById('response');
-const apiKey = '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';
-
+const apiKey = process.env.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;
 submit.addEventListener('click', async () => {
   const question = input.value;
   if (question) {
